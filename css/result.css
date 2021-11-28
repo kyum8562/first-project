@@ -1,3 +1,4 @@
+/* 결과화면 속성*/
 #result {
   display: none;
   background-color: whitesmoke;
@@ -6,6 +7,15 @@
   border-radius: 20px;
 }
 
+/* 결과화면 - 공유화면 속성 */
+#shareResult {
+  background-color: whitesmoke;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+/* 결과값 이름 및 내용 */
 .resultname {
   font-size: 26px;
 }
@@ -14,6 +24,7 @@
   font-size: 20px;
 }
 
+/* 공유하기 버튼 */
 .kakao {
   color: white;
   background-color: #fee500;
@@ -22,9 +33,25 @@
   border-radius: 20px;
 }
 
-/* answer에 클릭되거나 마우스를 올렸을 때 효과 */
+/* '공유하기' 버튼에 클릭되거나 마우스를 올렸을 때 효과 */
 .kakao:hover,
 .kakao:focus {
   background-color: whitesmoke;
   color: #fee500;
+}
+
+/*'나도 참여할래!' 버튼*/
+.gohome {
+  color: white;
+  background-color: pink;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+/* '나도 참여할래!' 버튼에 클릭되거나 마우스를 올렸을 때 효과 */
+.kakao:hover,
+.kakao:focus {
+  background-color: whitesmoke;
+  color: pink;
 }
