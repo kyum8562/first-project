@@ -1,3 +1,4 @@
+/* main -> qna 화면 넘어갈 때의 animation */
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -17,11 +18,12 @@
     from { opacity: 1; }
     to { opacity: 0; }
 }
-
-/* @keyframes movingPara {
-
-    from { margin-left: 100%; }
-
-    to { margin-left: 0%; }
-
-} */
+ 
+.fadeIn{
+    animation : fadeIn;
+    animation-duration: 0.5s;
+}
+.fadeOut{
+    animation : fadeOut;
+    animation-duration: 0.5s;
+}
