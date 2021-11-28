@@ -1,3 +1,30 @@
 #result {
   display: none;
+  background-color: whitesmoke;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.resultname {
+  font-size: 26px;
+}
+
+.resultDesc {
+  font-size: 20px;
+}
+
+.kakao {
+  color: white;
+  background-color: #fee500;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+/* answer에 클릭되거나 마우스를 올렸을 때 효과 */
+.kakao:hover,
+.kakao:focus {
+  background-color: whitesmoke;
+  color: #fee500;
 }
